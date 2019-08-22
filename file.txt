@@ -2,10 +2,10 @@ this is file..!!!
 
 class myClass{
 
-void myMethod(){
+private void myMethod(String str){
 
 
-System.out.println("Hello World...!!! Welcome to GIT");
+System.out.println(str);
 
 }
 public static void main(){
