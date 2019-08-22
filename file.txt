@@ -1,8 +1,14 @@
 this is file..!!!
 
 class myClass{
-public static void main(){
+
+void myMethod(){
+
 
 System.out.println("Hello World...!!! Welcome to GIT");
+
+}
+public static void main(){
+
 }
 }
