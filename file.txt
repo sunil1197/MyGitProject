@@ -1,8 +1,8 @@
 this is file..!!!
 
-class myClass{
+class MyClass{
 
-private static void myMethod(String str)
+private void myMethod(String str)
 	{
 
 	System.out.println(str);
@@ -11,8 +11,9 @@ private static void myMethod(String str)
 
 	public static void main()
 	{
-
-	myMethod("Welcome to GIT...!!!");
+	
+	MyClass obj =new MyClass();
+	obj.myMethod("Welcome to GIT...!!!");
 
 	}
 }
